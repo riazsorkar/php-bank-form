@@ -60,3 +60,7 @@ input[type=text] {
     border: none;
     border-bottom: 2px dotted rgb(0, 0, 0);
   }
+  .acno{
+    display: flex;
+    flex-direction: row-reverse;
+  }

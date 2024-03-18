@@ -47,7 +47,7 @@
 
         <div class="partOne">Part II: Information Related to Person<sup>1</sup> </div>
         <br/>
-        <label class="acno">A/C No: <input type="text" name="firstName" value="" placeholder="For Bank's Use Only"> </label> 
+        <label class="acno"> <span> A/C No: <input type="text" name="firstName" value="" placeholder="For Bank's Use Only"></span> </label> 
         <ol type="1">
             <div class="container">
                 <div class="folabel">
