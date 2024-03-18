@@ -72,6 +72,7 @@
 
                 <div class="photo">
                     <p>Photo Here</p>
+                    <input type="file" id="img" name="img" accept="image/*">
                 </div>
             </div>
             
