@@ -13,20 +13,40 @@
         <div class="partOne">Part - I: Information Regarding Account</div>
         <ol type="1">
             <li>
-                <label>Name of the Account (In English Block Letter): <input type="text" name="firstName" value=""> </label> <br/>
-                <label>হিসাবের শিরোনাম (বাংলায়): <input type="text" name="firstName" value=""> </label>              
+                <label>Name of the Account (In English Block Letter): <input type="text" name="nameOfTheAccount" value=""> </label> <br/>
+                <label>হিসাবের শিরোনাম (বাংলায়): <input type="text" name="hisab" value=""> </label>              
             </li>
 
             <li>
-                <label>Type of Account (Mark Tick): <input type="checkbox" name="firstName" value=""> Saving <input type="checkbox" name="firstName" value=""> Current <input type="checkbox" name="firstName" value=""> SND <input type="checkbox" name="firstName" value=""> FC <input type="checkbox" name="firstName" value=""> RFCD <input type="checkbox" name="firstName" value=""> NFCD  <input type="checkbox" name="firstName" value="">Other <input type="text" name="firstName" value=""> </label> <br/>                  
+                <label>Type of Account (Mark Tick): 
+                    <input type="checkbox" name="typeOfAc" value="Saving"> Saving 
+                    <input type="checkbox" name="typeOfAc" value="Current"> Current 
+                    <input type="checkbox" name="typeOfAc" value="SND"> SND 
+                    <input type="checkbox" name="typeOfAc" value="FC"> FC 
+                    <input type="checkbox" name="typeOfAc" value="RFCD"> RFCD 
+                    <input type="checkbox" name="typeOfAc" value="NFCD"> NFCD  
+                    <input type="checkbox" name="typeOfAc" value="">Other 
+                    <input type="text" name="othertypeOfAc" value=""> </label> <br/>                  
             </li>
 
             <li>
-                <label>Currency (Mark Tick): <input type="checkbox" name="firstName" value=""> Taka <input type="checkbox" name="firstName" value=""> USD <input type="checkbox" name="firstName" value=""> Euro <input type="checkbox" name="firstName" value=""> GBP <input type="checkbox" name="firstName" value=""> Other <input type="text" name="firstName" value=""> </label> <br/>                 
+                <label>Currency (Mark Tick): 
+                    <input type="checkbox" name="Currency" value="Taka"> Taka 
+                    <input type="checkbox" name="Currency" value="USD"> USD 
+                    <input type="checkbox" name="Currency" value="Euro"> Euro 
+                    <input type="checkbox" name="Currency" value="GBP"> GBP 
+                    <input type="checkbox" name="Currency" value=""> Other 
+                    <input type="text" name="otherCurrency" value=""> </label> <br/>                 
             </li>
 
             <li>
-                <label>Mode of Operation of Account (Mark Tick): <input type="checkbox" name="firstName" value=""> Singly <input type="checkbox" name="firstName" value=""> Jointly <input type="checkbox" name="firstName" value=""> Either or Survivor <input type="checkbox" name="firstName" value=""> Any One <input type="checkbox" name="firstName" value=""> Other <input type="text" name="firstName" value=""> </label> <br/>
+                <label>Mode of Operation of Account (Mark Tick): 
+                    <input type="checkbox" name="operationOfAccount" value=""> Singly 
+                    <input type="checkbox" name="operationOfAccount" value=""> Jointly 
+                    <input type="checkbox" name="operationOfAccount" value=""> Either or Survivor 
+                    <input type="checkbox" name="operationOfAccount" value=""> Any One 
+                    <input type="checkbox" name="operationOfAccount" value=""> Other 
+                    <input type="text" name="otherOperationOfAccount" value=""> </label> <br/>
                    
             </li>
 
