@@ -101,7 +101,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     echo "<br>";
 
     $image = htmlspecialchars($_POST["image"]);
-    echo '<img src = "$image">';
+    echo "Photo: ".$image;
     echo "<br>";
 
     $Nationality = htmlspecialchars($_POST["Nationality"]);
@@ -171,4 +171,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     echo "Signature (with date): " . "$Sign";
     echo "<br>";
 
-}
+};
+?>
