@@ -29,7 +29,7 @@ if(isset($_SESSION['error_msg'])) {
         <ol type="1">
             <li>
                 <label>Name of the Account (In English Block Letter): </label>
-                    <input type="text" name="AfirstName" required>
+                    <input type="text" name="AfirstName" placeholder="USE CAPITAL LETTER" required>
                 <br>
                 <label>হিসাবের শিরোনাম (বাংলায়): </label>
                     <input type="text" name="BfirstName" required>            
@@ -92,7 +92,7 @@ if(isset($_SESSION['error_msg'])) {
             <sup>1</sup> 
         </div>
             <br/>
-            <label class="acno"><input type="text" name="A/C_No" placeholder="For Bank's Use Only" required> A/C No: </label> 
+            <label class="acno"><input type="text" name="A/C_No" placeholder="For Bank's Use Only" required> <b>A/C No:</b> </label> 
                 
 
         <ol type="1">
@@ -100,7 +100,7 @@ if(isset($_SESSION['error_msg'])) {
                 <div class="folabel">
                     <li>
                         <label>Name of the Account (In English Block Letter):</label> 
-                        <input type="text" name="A2firstName" required>
+                        <input type="text" name="A2firstName" placeholder="USE CAPITAL LETTER" required>
                         <br/>
                         <label>হিসাবের শিরোনাম (বাংলায়):</label>
                         <input type="text" name="B2firstName" required>       

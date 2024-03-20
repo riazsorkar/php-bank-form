@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0px;
+}
 .partOne{
-    background-color: rgb(227,242,231);
+    background-color: rgb(139, 210, 158);
     text-align: center;
     padding: 5px;
     border: 1px solid #000000;
@@ -17,7 +20,8 @@
 .container{
     display: flex;
     width: 100%;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .folabel{
@@ -31,7 +35,7 @@
 .photo-sec{
     height: 150px;
     width: 215px;
-    background-color: rgb(227,242,231);
+    background-color: rgb(139, 210, 158);
     border: 2px solid #000000;
 
 }
@@ -50,7 +54,7 @@
     padding: 10px;
     margin: 10px;
     width: 100%;
-    background-color: rgb(227,242,231);
+    background-color: rgb(139, 210, 158);
     border-radius: 15px;
     border: none;
     font-weight: 600;
@@ -58,7 +62,7 @@
 }
 .btn:hover{
     background-color: #ffffff;
-    border: 2px solid rgb(227,242,231);
+    border: 2px solid rgb(139, 210, 158);
 }
 label{
     margin-top: 10px;
